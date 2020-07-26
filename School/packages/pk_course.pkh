@@ -1,0 +1,9 @@
+create or replace PACKAGE pk_course AS 
+    
+      
+   FUNCTION check_course_availability(pion_s_id NUMBER, pion_c_id NUMBER) 
+      RETURN NUMBER; 
+
+   PROCEDURE register(pion_s_id NUMBER, pion_semester_id number); 
+
+END pk_course; 
