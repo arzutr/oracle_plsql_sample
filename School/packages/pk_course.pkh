@@ -1,4 +1,4 @@
-create or replace PACKAGE pk_course AS 
+create or replace PACKAGE school.pk_course AS 
     
       
    FUNCTION check_course_availability(pion_s_id NUMBER, pion_c_id NUMBER) 
